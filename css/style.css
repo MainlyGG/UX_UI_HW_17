@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    background: #0E1213;
+    font-family: 'Commissioner';
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+
+}
+
+header::after{
+
+}
+
+.logo{
+    margin-top: 41px;
+    position: relative;
+    left: -95px;
+    float: left;
+    
+}
+
+nav ul {
+    height: 46px;
+    color: #FFD2FC;
+    float: right;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    list-style: none;
+    
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+hr {
+    height: 2px;
+    background-color: #FFD2FC;
+}
+
+.Hero{
+
+    margin: 0;
+    display:flex;
+    padding: 115px 102px;
+    flex-direction: row;
+    gap: 500px;
+}
+
+h1{
+    color: #FFD2FC;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.HeroContainer{
+
+   width: 589px;
+
+}
+
+.paragraph{
+
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+}
+
+.contactContainer{
+
+    
+    flex-direction: row;
+    height: 800px;
+   
+
+}
+
+.socialPages{
+    font-size: 48px;
+    color: #FFD2FC;
+    font-weight: 700;
+    margin-left: 102px;
+}
+
+.instaLinked{
+    margin-left: 18px;
+    margin-top: 30px;
+}
+
+.emailMe{
+
+    position: relative;
+    top: -120px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-decoration: underline 5px;
+    text-underline-offset: 10px;
+    
+}
+
+.arrow{
+    position: relative;
+    top: 15px;
+}
+
+
+
+.footerNav ul{
+    margin-right: 102px;
+    flex-direction: column;
+    float:right;
+    font-size: 40px;
+    color: #FFD2FC;
+    font-weight: 700;
+    list-style: none;
+    position: relative;
+    bottom: 310px;
+    
+    
+}
+
+.footerNav li{
+    margin: 15px 0px;
+}
